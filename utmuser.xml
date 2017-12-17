@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.5" type="plugin" group="system" method="upgrade">
+	<name>plg_system_utmuser</name>
+	<author>Alexey Startler</author>
+	<creationDate>2017-12-17</creationDate>
+	<copyright>Created by Alexey Startler</copyright>
+	<license>MIT</license>
+	<authorEmail>info@startler.ru</authorEmail>
+	<authorUrl>startler.ru</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_SYSTEM_UTMUSER_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="utmuser">utmuser.php</filename>
+		<folder>fields</folder>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_utmuser.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_utmuser.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" addfieldpath="/plugins/system/utmuser/fields">
+				
+			</fieldset>
+		</fields>
+	</config>
+</extension>
